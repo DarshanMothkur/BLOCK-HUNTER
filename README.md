@@ -4,7 +4,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-3.0-green.svg)](https://flask.palletsprojects.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 
 **Block Hunter** is an M.Tech research project that builds a privacy-preserving **Industrial Internet of Things (IIoT)** cybersecurity platform. It combines:
