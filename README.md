@@ -155,13 +155,7 @@ See [docs/API.md](docs/API.md) for full reference.
 
 ---
 
-## Research Context (M.Tech)
 
-This repository is designed as a **complete academic prototype** suitable for:
-
-- Thesis demonstration of **privacy-preserving IIoT security**
-- Comparison of **centralized vs federated** intrusion detection
-- **Blockchain-backed auditability** of security events and model provenance
 
 Suggested experimental metrics: accuracy, precision/recall/F1, communication cost, FL convergence rounds, and chain integrity verification.
 
@@ -175,9 +169,7 @@ Suggested experimental metrics: accuracy, precision/recall/F1, communication cos
 
 ---
 
-## License
 
-MIT License — see [LICENSE](LICENSE).
 
 ---
 
