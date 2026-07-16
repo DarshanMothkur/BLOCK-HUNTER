@@ -1,0 +1,81 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Environment & secrets
+.env
+.env.local
+*.pem
+*.key
+secrets/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite3
+database/*.db
+
+# ML artifacts (keep structure, ignore large trained weights if needed)
+models/*.pkl
+models/*.pt
+models/*.h5
+models/*.joblib
+!models/.gitkeep
+
+# Datasets (large files)
+datasets/raw/*
+datasets/processed/*
+!datasets/raw/.gitkeep
+!datasets/processed/.gitkeep
+!datasets/sample_iiot_traffic.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Screenshots (optional - uncomment if large binaries should not be committed)
+# screenshots/*
+# !screenshots/.gitkeep
+
+# Local config overrides
+config.local.yaml
