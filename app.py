@@ -9,6 +9,13 @@ Run:
 Then open http://127.0.0.1:5000
 """
 
+# ================================================
+# Block Hunter - Main Application
+# ================================================
+# This is the central entry point for the Flask web application.
+# It handles routing, blueprint registration, and app configuration.
+
+
 from __future__ import annotations
 
 import os
