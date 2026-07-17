@@ -175,6 +175,6 @@ Suggested experimental metrics: accuracy, precision/recall/F1, communication cos
 
 ## Author
 
-**Block Hunter** — M.Tech Project (IIoT Cybersecurity)
+**Block Hunter** — R DARSHAN
 
 *Federated Learning × Blockchain × Industrial IoT Security*
