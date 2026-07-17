@@ -123,9 +123,13 @@ def create_app(config_class: type = Config) -> Flask:
         return {"status": "ok", "service": "Block Hunter", "version": "1.0.0"}
 
     # Ensure DB exists on first boot
-    if not os.path.exists(get_db_path()):
+ db_path = get_db_path()
+    if not os.path.exists(db_path):
+        print(f"🛠️  Initializing database at: {db_path}")
         with app.app_context():
             init_database()
+    else:
+        print(f"✅ Database found at: {db_path}")
 
     return app
 
