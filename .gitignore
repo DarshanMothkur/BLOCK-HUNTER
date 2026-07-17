@@ -79,3 +79,14 @@ notebooks/.ipynb_checkpoints/
 
 # Local config overrides
 config.local.yaml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
