@@ -178,3 +178,16 @@ Suggested experimental metrics: accuracy, precision/recall/F1, communication cos
 **Block Hunter** — R DARSHAN
 
 *Federated Learning × Blockchain × Industrial IoT Security*
+
+
+## Technologies Used
+- Python + Flask
+- PyTorch / Scikit-learn (MLP)
+- Federated Learning
+- Blockchain (custom implementation)
+- SQLite
+
+## What I Learned
+- Privacy-preserving ML using Federated Learning
+- Building lightweight blockchain for audit logs
+- Full-stack development with Flask
